@@ -1,0 +1,13 @@
+ID,Parent_Hazardous_Situation,Hazardous_Situation,HS_ID
+1.1,Overdose,Hypoglycemia,1
+1.2,Underdose,Hyperglycemia,2
+1.3,Incorrect Treatment,Toxicity,3
+2.1,Excessive Thermal Energy,Burns,4
+2.2,Electrical Shock,Electrocution,5
+2.3,Excessive Electromagnatic Emissions,Interference,6
+2.4,Excessive Sound Frequencies,Discomfort,7
+3.1,User Infection,Infection,8
+3.2,User Allergic Reaction/Rash,Allergy,9
+4.1,Presence of Sharp Edges,Injury,10
+4.2,Excessive Pump Vibration,Damage,11
+5.1,Unsafe Disposal of the Pump or Its Components,Environmental damage,12

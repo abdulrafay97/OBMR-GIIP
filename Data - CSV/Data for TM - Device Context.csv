@@ -1,0 +1,6 @@
+DC_ID,Name
+0,Dummy Device Context
+1,Normal Use
+2,Applicable only if the pump recommends correction boluses
+3,Applicable only if the pump recommends food boluses
+4,Applicable if the pump includes tubing as part of its drug delivery interface

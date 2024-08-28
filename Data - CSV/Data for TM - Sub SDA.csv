@@ -1,0 +1,43 @@
+ID,SDA_ID,Sub_SDA,Imp_Manifest
+1,1,Trigger air-in-line alarm within a maximum delay time of x seconds if air bubbles larger than y μL are detected.,Sec. 1.6 of Air-In-Line Protocol.
+2,2,Pump shall operate within a temperature of x °C to y °C.,Sec. 6.1 of Operational Conditions Protocol.
+3,4,An occlusion alarm shall be triggered if the pump senses an upstream (insulin-supply side) occlusion.,Sec. 1.5 of Occlusion Protocol.
+4,4,An occlusion alarm shall be triggered if the pump senses a downstream (patient side) occlusion.,Sec. 1.5 of Occlusion Protocol.
+5,4,The occlusion sensor shall trigger an occlusion alarm whenever the actual flow rate is less than the programmed rate by at least x% for y seconds due to occlusion.,Sec. 1.5 of Occlusion Protocol.
+6,4,"When an occlusion occurs, the pump shall stop flow and alarm within a maximum delay time of x seconds.",Sec. 1.5 of Occlusion Protocol.
+7,5,Basal Rate should be x,Sec. 1.3 Bolus Calculation and Administration Protocol.
+8,5,Normal Bolus Rate should be y,Sec. 1.3 Bolus Calculation and Administration Protocol.
+9,5,Extended Bolus Rate should be z,Sec. 1.3 Bolus Calculation and Administration Protocol.
+10,7,The tolerance should be x,Sec. 1.3 Drug Reservoir Protocol.
+11,8,Threshold for Low Reservoir Alert should be at x,Sec. 1.3 Drug Reservoir Protocol.
+12,8,The tolerance should be y,Sec. 1.3 Drug Reservoir Protocol.
+13,9,Lower pressure limit: x,Sec. 6.1 of Operational Conditions Protocol.
+14,9,Upper pressure limit: y,Sec. 6.1 of Operational Conditions Protocol.
+15,10,Lower humidity limit: x,Sec. 6.1 of Operational Conditions Protocol.
+16,10,Lower humidity limit: y,Sec. 6.1 of Operational Conditions Protocol.
+17,12,Continuous Time Period: x ,Sec. 1.1 of Infusion Control Protocol.
+18,12,Accuracy Tolerance: y,Sec. 1.1 of Infusion Control Protocol.
+19,16,The pump shall continue notifying the user every x minutes while an alarm remains unacknowledged and not overridden by alarms with higher priorities.,Sec. 3.1 of Alarms
+20,17,The system shall perform a POST for all subassemblies without degrading normal operation.,Sec. 3.4 of Power-on self test
+21,17,The POST shall include at least the following tests: (CPU test; nonvolatile memory test; volatile memory test; battery test; keypad test (or other input device test); display test; watchdog test; RTC test; speaker/vibrator test (if applicable)),Sec. 3.4 of Power-on self test
+22,17,"Any failure of a test step during POST shall abort the remaining test steps and generate the appropriate alarm for the failure, and transition to a known safe state.",Sec. 3.4 of Power-on self test
+23,17,"The pump shall wait in a known safe state during the POST process, i.e., the pump shall deliver no insulin,other substances, or energy during POST.",Sec. 3.4 of Power-on self test
+24,23,"When unrecoverable software failures that prevent the pump from meeting its expected runtime performance are detected, the watchdog or equivalent safety mechanisms implemented in the pump shall trigger the pump to enter into a failsafe state within x seconds.",Sec. 3.5 of Watchdog Protocol
+25,25,The detection of critical data corruption shall stop all active infusion and signal a data corruption alarm.,Sec. 1.9 of Data Integrity
+26,26,Delivery Discrepancy Threshold: x%,Sec. 1.3 Drug Reservoir Protocol.
+27,34,Debounce Time: x milliseconds,Sec. 2.3 of Keypad
+28,35,Stuck Key Time Threshold: x minutes,Sec. 2.3 of Keypad
+29,36,Time Before Transition to Audible Mode: x minutes,Sec. 3.1 of Alarms
+30,37,RTC Check Interval: x minutes,Sec. 3.3 Safety Checks
+31,38,Overheat Temperature Threshold: x °C,Sec. 6.1 of Operational Conditions Protocol.
+32,39,Patient Leakage Current Threshold: x μA,Sec. 5.5 of Patient leakage current
+33,40,The pump shall signal an empty battery alarm and stop delivery when the amount of estimated battery life remaining is less than x minutes.,Sec. 5.1 Battery Voltage
+34,41,The pump shall signal a low battery alert when the amount of estimated battery life remaining is less than x minutes. This alert shall occur periodically until the battery is replaced with a good battery.,Sec. 5.1 Battery Voltage
+35,44,The pump shall initiate a high battery/contact impedance alert when the measured impedance is greater than x Ω. This alert shall occur periodically until the contacts are cleaned or the battery is replaced with a good battery.,Sec. 5.2 of Battery and contact impedance
+36,45,"For a disposable insulin pump, it shall signal an expiration reminder no later than x hours before its normal use expires and shall keep signaling expiration reminders every y minutes until the user stops using the pump.","3.2 Alarm, warning, and reminder"
+37,46,Inactivity Time Threshold: x hours,Sec. 5.4 of Auto-off and power-saving mode
+38,47,Notify user every x minutes untill user responds,Sec. 3.1 of Alarms
+39,47,Audible alarm signals shall be in the range of x dBA to y dBA.,Sec. 3.1 of Alarms
+40,53,Initial Delay and Reminder Interval: x minutes,Sec. 1.8 of Pump Suspension
+41,53,Total Duration of Audible Reminders: y hours,Sec. 1.8 of Pump Suspension
+42,54,Bolus Increment Size: x units,Sec. 1.3 Bolus Calculation and Administration Protocol.

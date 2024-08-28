@@ -1,0 +1,245 @@
+S_ID,Hazardous_Situation,Primary_Cause,E_ID
+2.1,1.2,Air in line,1
+2.2,1.1,Free Flow,2
+2.3,1.2,Reverse Flow,3
+2.4,1.2,Pump is disconnected from the infusion set without the user’s awareness,4
+2.5,1.1,Excessive bolus administration due to too many bolus requests from the user,5
+2.6,1.2,Occlusion without the user’s awareness,6
+2.7,1.1,Dosage of bolus is delivered unevenly over its specified duration,7
+2.7,1.2,Dosage of bolus is delivered unevenly over its specified duration,7
+2.8,1.2,Insulin leakage,8
+2.8,3.1,Insulin leakage,8
+2.8,3.2,Insulin leakage,8
+2.9,1.2,Drug reservoir becomes empty during insulin delivery without the user’s awareness,9
+2.1,1.2,Insulin level in the drug reservoir becomes low during insulin delivery without the user’s awareness,109
+2.11,1.1,Actual flow rate does not match the programmed infusion rate,10
+2.11,1.2,Actual flow rate does not match the programmed infusion rate,10
+2.12,1.1,Excessive flow rate fluctuation,11
+2.12,1.2,Excessive flow rate fluctuation,11
+2.13,1.2,A replaceable drug reservoir is detached during normal pump use,12
+2.14,1.1,Unexpected delivery of insulin,13
+2.15,1.2,Pump stops delivering insulin without the user’s awareness,14
+2.16,1.1,Pump hardware is not initialized properly,15
+2.16,1.2,Pump hardware is not initialized properly,15
+2.16,1.3,Pump hardware is not initialized properly,15
+3.1.1,1.1,Incorrect meal bolus is recommended by the bolus calculator,16
+3.1.2,1.2,Incorrect meal bolus is recommended by the bolus calculator,16
+3.1.2,1.1,Incorrect correction bolus is recommended by the bolus calculator,17
+3.1.2,1.2,Incorrect correction bolus is recommended by the bolus calculator,17
+3.1.3,1.1,Inappropriate or incorrect calculation of IOB,18
+3.1.3,1.2,Inappropriate or incorrect calculation of IOB,18
+3.2,1.1,Pump unexpectedly restores to default factory settings without the user’s awareness,19
+3.2,1.2,Pump unexpectedly restores to default factory settings without the user’s awareness,19
+3.3,1.1,Pump controller fails to monitor the status of the pump delivery mechanism,20
+3.3,1.2,Pump controller fails to monitor the status of the pump delivery mechanism,20
+3.4,1.1,Pump controller fails to detect mechanism failures of pump delivery,20
+3.4,1.2,Pump controller fails to detect mechanism failures of pump delivery,20
+3.5,1.1,Pump annunciates notifications of different importance to the user with similar signals,21
+3.5,1.2,Pump annunciates notifications of different importance to the user with similar signals,21
+3.6,1.1,Pump presents inappropriate or inaccurate prompts to the user,22
+3.6,1.2,Pump presents inappropriate or inaccurate prompts to the user,22
+3.6,1.3,Pump presents inappropriate or inaccurate prompts to the user,22
+3.7,1.1,Incorrect critical data.,23
+3.7,1.2,Incorrect critical data.,23
+3.7,1.3,Incorrect critical data.,23
+3.8,1.1,Corrupted infusion commands,24
+3.8,1.2,Corrupted infusion commands,24
+3.9,1.1,Incorrect or inappropriate basal profiles are programmed/activated,25
+3.9,1.2,Incorrect or inappropriate basal profiles are programmed/activated,25
+3.9,1.3,Incorrect or inappropriate basal profiles are programmed/activated,25
+3.1,1.1,Unexpected software execution,26
+3.1,1.2,Unexpected software execution,26
+3.11,1.1,Data logging/retrieval failure,27
+3.11,1.2,Data logging/retrieval failure,27
+3.12,1.1,Inappropriate setting of alarm priorities,28
+3.12,1.2,Inappropriate setting of alarm priorities,28
+3.13,1.1,Pump fails to auto-stop upon detecting a critical failing condition that requires it to stop,29
+3.13,1.2,Pump fails to auto-stop upon detecting a critical failing condition that requires it to stop,29
+3.14,1.1,Inadequate or overcomplicated operating instructions,30
+3.14,1.2,Inadequate or overcomplicated operating instructions,30
+3.14,1.3,Inadequate or overcomplicated operating instructions,30
+3.15,1.1,Software not initialized to appropriate values,31
+3.15,1.2,Software not initialized to appropriate values,31
+3.15,1.3,Software not initialized to appropriate values,31
+3.16,1.1,Nuisance alarming,32
+3.16,1.2,Nuisance alarming,32
+3.16,1.3,Nuisance alarming,32
+3.17,1.1,Pump unexpectedly resets to default pump settings without the user’s awareness,33
+3.17,1.2,Pump unexpectedly resets to default pump settings without the user’s awareness,33
+4.1.1,1.1,Central processing unit failure,34
+4.1.1,1.2,Central processing unit failure,34
+4.1.2,1.1,"Random-access memory or nonvolatile memory failure, including failing to write to memory, failing to read from memory, and memory data corruptions",35
+4.1.2,1.2,"Random-access memory or nonvolatile memory failure, including failing to write to memory, failing to read from memory, and memory data corruptions",35
+4.1.3,1.1,Read-only memory or external flash memory failure,36
+4.1.3,1.2,Read-only memory or external flash memory failure,36
+4.2.1,1.1,Pump delivery mechanism does not operate as instructed,37
+4.2.1,1.2,Pump delivery mechanism does not operate as instructed,37
+4.2.2,1.2,Pump delivery mechanism fails and does not stroke,38
+4.2.3,1.1,Fail to stop the motor of the pump when a fault condition occurs,39
+4.2.3,1.2,Fail to stop the motor of the pump when a fault condition occurs,39
+4.2.4,1.1,Fatigued/worn/broken mechanical parts,40
+4.2.4,1.2,Fatigued/worn/broken mechanical parts,40
+4.2.4,2.1,Fatigued/worn/broken mechanical parts,40
+4.2.4,4.2,Fatigued/worn/broken mechanical parts,40
+4.3.1,1.1,"User interface components of the pump, including display units and alarming units, fail or behave abnormally",41
+4.3.1,1.2,"User interface components of the pump, including display units and alarming units, fail or behave abnormally",41
+4.3.1,1.3,"User interface components of the pump, including display units and alarming units, fail or behave abnormally",41
+4.3.2,1.1,"Input device, e.g., keypad or touch screen, does not work correctly",42
+4.3.2,1.2,"Input device, e.g., keypad or touch screen, does not work correctly",42
+4.3.2,1.3,"Input device, e.g., keypad or touch screen, does not work correctly",42
+4.3.3,1.1,Key bounce not detected or corrected,43
+4.3.3,1.2,Key bounce not detected or corrected,43
+4.3.3,1.3,Key bounce not detected or corrected,43
+4.3.4,1.1,Key stuck,110
+4.3.4,1.2,Key stuck,110
+4.3.4,1.3,Key stuck,110
+4.3.5,1.1,Audio notifications or prompts cannot be heard in a normal use environment,44
+4.3.5,1.2,Audio notifications or prompts cannot be heard in a normal use environment,44
+4.3.5,1.3,Audio notifications or prompts cannot be heard in a normal use environment,44
+4.3.6,2.4,Audio notifications or prompts too loud,45
+4.3.7,1.1,Delayed alarm detection and notifications,46
+4.3.7,1.2,Delayed alarm detection and notifications,46
+4.3.7,1.3,Delayed alarm detection and notifications,46
+4.3.8,1.1,Nonaudio alarm cannot be seen/interpreted,47
+4.3.8,1.2,Nonaudio alarm cannot be seen/interpreted,47
+4.3.8,1.3,Nonaudio alarm cannot be seen/interpreted,47
+4.3.9,1.1,Nonaudio alarm cannot be felt (vibration),48
+4.3.9,1.2,Nonaudio alarm cannot be felt (vibration),48
+4.3.9,1.3,Nonaudio alarm cannot be felt (vibration),48
+4.4.1,2.2,Inadequate electrical/radiation shielding for the pump,49
+4.4.1,2.3,Inadequate electrical/radiation shielding for the pump,49
+4.4.2,2.3,Improper shape design or improper manufacturing process,50
+4.4.2,4.1,Improper shape design or improper manufacturing process,50
+4.5.1,1.1,Sensor failure,51
+4.5.1,1.2,Sensor failure,51
+4.5.1,1.3,Sensor failure,51
+4.5.2,1.1,False watchdog interrupt,52
+4.5.2,1.2,False watchdog interrupt,52
+4.5.2,1.3,False watchdog interrupt,52
+4.5.3,1.1,Watchdog timer failed; watchdog does not interrupt as expected,53
+4.5.3,1.2,Watchdog timer failed; watchdog does not interrupt as expected,53
+4.5.3,1.3,Watchdog timer failed; watchdog does not interrupt as expected,53
+4.6.1,1.1,"Time base, such as real-time clock (RTC), used by the pump to control insulin delivery speeds up, slows down, or stalls",54
+4.6.1,1.2,"Time base, such as real-time clock (RTC), used by the pump to control insulin delivery speeds up, slows down, or stalls",54
+4.6.2,1.1,System RTC not synchronized (date/time register not the same as the RTC),55
+4.6.2,1.2,System RTC not synchronized (date/time register not the same as the RTC),55
+4.6.3,1.1,Synchronization error between pump components,56
+4.6.3,1.2,Synchronization error between pump components,56
+4.6.4,1.1,Component communication/bus/channel failure,57
+4.6.4,1.2,Component communication/bus/channel failure,57
+4.6.5,1.2,Broken drug reservoir,58
+5.1,1.1,Physical damage to the pump or its sub assemblies.,59
+5.1,1.2,Physical damage to the pump or its sub assemblies.,59
+5.1,2.3,Physical damage to the pump or its sub assemblies.,59
+5.1,4.1,Physical damage to the pump or its sub assemblies.,59
+5.2,1.1,Fluid/humidity ingress into the pump,60
+5.2,1.2,Fluid/humidity ingress into the pump,60
+5.2,2.1,Fluid/humidity ingress into the pump,60
+5.2,2.2,Fluid/humidity ingress into the pump,60
+5.3,1.1,Air pressure within the pump is much lower/higher than ambient air pressure,61
+5.3,1.2,Air pressure within the pump is much lower/higher than ambient air pressure,61
+5.4,1.1,Pump overheats while running,62
+5.4,1.2,Pump overheats while running,62
+6.1,1.1,"Nonfunctioning/disabled electrical circuits/ components, e.g., shorted electrical circuits.",63
+6.1,1.2,"Nonfunctioning/disabled electrical circuits/ components, e.g., shorted electrical circuits.",63
+6.1,2.1,"Nonfunctioning/disabled electrical circuits/ components, e.g., shorted electrical circuits.",63
+6.1,2.2,"Nonfunctioning/disabled electrical circuits/ components, e.g., shorted electrical circuits.",63
+6.2,1.1,Erratic electric circuit operations,64
+6.2,1.2,Erratic electric circuit operations,64
+6.2,2.3,Erratic electric circuit operations,64
+6.3,1.1,Pump develops excessive static charge or experiences ESD that exceeds its ESD immunity,65
+6.3,1.2,Pump develops excessive static charge or experiences ESD that exceeds its ESD immunity,65
+6.4,2.2,Leakage current on the surface of the pump,66
+6.5.1,1.2,Battery depletes without the user’s awareness,67
+6.5.2,1.2,"Battery depletes rapidly, giving the user insufficient time to respond",68
+6.5.3,1.1,Voltage level of the battery is too low,69
+6.5.3,1.2,Voltage level of the battery is too low,69
+6.5.4,1.1,Voltage level of the battery varies greatly,70
+6.5.4,1.2,Voltage level of the battery varies greatly,70
+6.5.5,1.1,Battery life is unpredictable,71
+6.5.5,1.2,Battery life is unpredictable,71
+6.5.6,1.2,Battery is inadvertently disconnected from the pump,72
+6.5.7,1.1,Battery impedance or contact impedance becomes too high,73
+6.5.7,1.2,Battery impedance or contact impedance becomes too high,73
+6.5.8,5.1,Depleted batteries are discarded without being recycled,74
+7.1,3.2,"Pump, especially its delivery path, is contaminated with toxic substances",75
+7.2,3.1,"Pump is exposed to pathogens, allergens, and other infectious substances",76
+7.3,1.2,Chemical precipitation inside the delivery path,77
+7.3,3.2,Chemical precipitation inside the delivery path,77
+7.4,3.1,Infusion site infection,78
+7.5,1.3,"Insulin, while being delivered to the user, loses its potency",79
+7.6,3.2,Pump is made of materials that cause user allergic reactions,80
+8.1,1.1,User uses the pump when certain physical/mental conditions such as impaired vision prevent him/her to do so,81
+8.1,1.2,User uses the pump when certain physical/mental conditions such as impaired vision prevent him/her to do so,81
+8.1,1.3,User uses the pump when certain physical/mental conditions such as impaired vision prevent him/her to do so,81
+8.2,1.1,User is incapable of using the pump or configuring treatment plans,82
+8.2,1.2,User is incapable of using the pump or configuring treatment plans,82
+8.2,1.3,User is incapable of using the pump or configuring treatment plans,82
+8.3,1.1,"User injects long-acting insulin shortly before first use of the pump, causing an amount of insulin on board that cannot be accounted for by the pump",83
+8.4,1.1,User is connected to the pump incorrectly,84
+8.4,1.2,User is connected to the pump incorrectly,84
+8.5,1.3,"User fills the pump with wrong types of insulin, degraded insulin, or drugs other than insulin",85
+8.6,1.1,User fails to test his BG levels as frequently as recommended,86
+8.6,1.2,User fails to test his BG levels as frequently as recommended,86
+8.6,1.3,User fails to test his BG levels as frequently as recommended,86
+8.7,1.1,User travels to a different time zone and forgets to accommodate so-caused time discrepancy while using the pump,87
+8.7,1.2,User travels to a different time zone and forgets to accommodate so-caused time discrepancy while using the pump,87
+8.8,1.2,"User fails to replace consumed pump supplies, including insulin and batteries, in time",88
+8.9.1,1.3,User inputs incorrect drug type and concentration information for currently loaded insulin,89
+8.9.2,1.1,User enters incorrect parameters when configuring basal profiles,90
+8.9.2,1.2,User enters incorrect parameters when configuring basal profiles,90
+8.9.3,1.1,User enters incorrect parameters when programming temporary basal deliveries,91
+8.9.3,1.2,User enters incorrect parameters when programming temporary basal deliveries,91
+8.9.4,1.1,User measures or enters BG values incorrectly,92
+8.9.4,1.2,User measures or enters BG values incorrectly,92
+8.9.5,1.1,User provides incorrect parameters to the bolus calculator. These parameters include the user’s insulin sensitivities and corresponding effective periods; insulin to-carbohydrate ratios and corresponding effective periods; the user’s target BG levels and corresponding effective periods; and insulin duration of action,93
+8.9.5,1.2,User provides incorrect parameters to the bolus calculator. These parameters include the user’s insulin sensitivities and corresponding effective periods; insulin to-carbohydrate ratios and corresponding effective periods; the user’s target BG levels and corresponding effective periods; and insulin duration of action,93
+8.9.6,1.1,User estimates carbohydrate content of planned meals incorrectly,94
+8.9.6,1.2,User estimates carbohydrate content of planned meals incorrectly,94
+8.10.1,1.1,"User touches the input units of the pump accidentally, causing unintentional changes on pump settings, pump states, or insulin delivery programs",95
+8.10.1,1.2,"User touches the input units of the pump accidentally, causing unintentional changes on pump settings, pump states, or insulin delivery programs",95
+8.10.2,1.1,"User interacts improperly with the input mechanisms of the pump, e.g., pressing the keypad for too long or not long enough, causing the pump to misinterpret the user’s intention",96
+8.10.2,1.2,"User interacts improperly with the input mechanisms of the pump, e.g., pressing the keypad for too long or not long enough, causing the pump to misinterpret the user’s intention",96
+8.10.3,1.1,"User fails to confirm revisions on insulin delivery programs, leaving the pump unchanged without his/her awareness",97
+8.10.3,1.2,"User fails to confirm revisions on insulin delivery programs, leaving the pump unchanged without his/her awareness",97
+8.10.4,1.1,"User forgets to confirm his/her action of activating another basal profile, leaving the current basal profile to continue without his/her awareness",97
+8.10.4,1.2,"User forgets to confirm his/her action of activating another basal profile, leaving the current basal profile to continue without his/her awareness",97
+8.10.5,1.1,"User forgets to confirm his/her action of starting or stopping a temporary basal, a normal bolus, or an extended bolus",97
+8.10.5,1.2,"User forgets to confirm his/her action of starting or stopping a temporary basal, a normal bolus, or an extended bolus",97
+8.10.6,1.1,User commands a bolus to cover a meal but does not eat,97
+8.10.6,1.2,User commands a bolus to cover a meal but does not eat,97
+8.10.7,1.2,User eats but forgets to bolus,97
+8.10.8,1.1,User commands boluses without consulting with the bolus calculator or inappropriately overrides boluses recommended by the bolus calculator,98
+8.10.8,1.2,User commands boluses without consulting with the bolus calculator or inappropriately overrides boluses recommended by the bolus calculator,98
+8.10.9,1.1,User inappropriately cancels a bolus in middelivery,99
+8.10.9,1.2,User inappropriately cancels a bolus in middelivery,99
+8.10.10,1.2,User forgets to resume after suspending the pump,100
+8.10.11,1.1,"User programs a special basal profile targeted at certain occasions, but forgets to activate this profile when targeted occasions occur",97
+8.10.11,1.2,"User programs a special basal profile targeted at certain occasions, but forgets to activate this profile when targeted occasions occur",97
+8.10.12,1.1,User fails to attend to pump notifications,101
+8.10.12,1.2,User fails to attend to pump notifications,101
+8.10.12,1.3,User fails to attend to pump notifications,101
+8.10.13,1.1,Human factors issues,102
+8.10.13,1.2,Human factors issues,102
+8.10.13,1.3,Human factors issues,102
+9.1,1.1,"Outside temperature is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or to behave erratically",103
+9.1,1.2,"Outside temperature is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or to behave erratically",103
+9.1,1.3,"Outside temperature is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or to behave erratically",103
+9.2,1.1,"Outside air pressure is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or to behave erratically",104
+9.2,1.2,"Outside air pressure is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or to behave erratically",104
+9.2,1.3,"Outside air pressure is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or to behave erratically",104
+9.3,1.1,Electromagnetic interference,105
+9.3,1.2,Electromagnetic interference,105
+9.3,1.3,Electromagnetic interference,105
+9.4,1.1,Excessive background noise (preventing the user from attending to pump notifications),106
+9.4,1.2,Excessive background noise (preventing the user from attending to pump notifications),106
+9.4,1.3,Excessive background noise (preventing the user from attending to pump notifications),106
+9.5,1.1,Outside lighting condition prevents the user from interacting with the pump correctly,107
+9.5,1.2,Outside lighting condition prevents the user from interacting with the pump correctly,107
+9.5,1.3,Outside lighting condition prevents the user from interacting with the pump correctly,107
+9.6,1.1,Unauthorized personnel tamper with pump configuration settings,108
+9.6,1.2,Unauthorized personnel tamper with pump configuration settings,108
+9.6,1.3,Unauthorized personnel tamper with pump configuration settings,108
+9.7,1.1,Unauthorized personnel tamper with information critical to insulin delivery,108
+9.7,1.2,Unauthorized personnel tamper with information critical to insulin delivery,108
+9.7,1.3,Unauthorized personnel tamper with information critical to insulin delivery,108

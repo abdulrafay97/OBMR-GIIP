@@ -1,0 +1,223 @@
+E_ID,Events,is_Event_Given,Device Context,Initial_Probability_1,Residual_Probability_1,DSH_ID,SDA_ID
+1,Incorrect/incomplete priming processes,,1,3,2,1,1
+1,User’s motions cause the delivery path to be loose or broken,,1,5,3,2,1
+1,"Broken, loose, or unsealed delivery path",,1,5,3,2,1
+1,Pump or pump components are unable to release gas or air,,1,5,3,3,1
+1,Cold insulin is loaded and then warms up to form air bubbles,,1,1,1,4,1
+1,Pump is connected with incompatible infusion sets,,1,3,2,3,1
+2,Valves in the delivery path are broken,,1,5,3,5,51
+2,Air pressure within the pump is much lower/higher than ambient air pressure,,1,2,1,3,26
+2,"Pump is positioned much higher than the infusion site, causing unintentional drug flow",,1,1,1,3,26
+2,"Delivery path is damaged, creating a vent on the path that allows unintentional gravity flow",,1,1,1,2,26
+2,Large temperature changes causing a mismatch between drug reservoir volume change and insulin density change,,1,2,1,4,2
+3,Siphon effect due to the pump being positioned much lower than the infusion site,,1,1,1,3,3
+3,"Delivery path is damaged, creating a vent on the path that diverts an intentional drug flow from reaching the user",,1,4,2,2,3
+3,Pump delivery mechanism runs opposite to the expected direction,,1,1,1,3,3
+3,Air pressure within the pump is much lower/higher than ambient air pressure,,1,2,1,3,3
+4,User’s motions cause the pump or the attached infusion set to be disconnected from the user,,1,4,2,3,26
+4,Loose connection between parts of the delivery path,,1,2,1,2,26
+4,"Infusion set is not applied to the user correctly or is caught on the infusion set adhesives or tapes, causing it to be disconnected from the user",,1,4,2,24,26
+5,User forgets about previously received boluses and requests additional unnecessary boluses without consulting the bolus history records,,0,5,3,6,9999
+5,"Bolus history is corrupted, making the user unable to track previous boluses",,0,4,2,6,9999
+5,User requests a meal bolus but does not eat,,0,4,2,12,9999
+6,"Delivery path obstruction, e.g., kinked tubes",,4,3,1,2,4
+6,Chemical precipitation inside the delivery path,,4,3,2,2,4
+7,Algorithmic errors,,1,2,1,7,5
+7,Pump delivery mechanism does not operate as instructed,,1,3,2,3,6
+8,User does not follow instructions to disconnect the pump appropriately,,0,4,2,8,9999
+8,Pump is disconnected without the user’s awareness,,1,4,2,8,26
+8,Loose connection between parts of the delivery path,,1,1,1,2,26
+8,Broken drug reservoir,,1,5,2,4,51
+8,Occlusion during insulin delivery causes high pressure within the delivery path,,1,3,1,2,26
+9,,0,1,1,1,32,7
+10,Occlusion without the user’s awareness,,4,4,2,3,4
+10,Air pressure within the pump is much lower/higher than ambient air pressure,,0,2,1,3,9999
+10,"Outside temperature is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or behave erratically",,1,3,1,3,10
+10,"Outside air pressure is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or behave erratically",,1,1,1,3,9
+10,"Electromagnetic interference due to internal or external electro magnetic disturbances, causing the pump to deliver insulin inaccurately or behave erratically",,1,1,1,3,11
+11,,0,1,1,1,32,12
+12,Drug reservoir compartment is broken or opened,,1,5,3,4,51
+12,User’s motions cause the reservoir to be disconnected,,0,4,2,4,9999
+13,"Software instructs to resume a previous bolus after suspension, or after the battery is replaced, causing an unexpected bolus",,1,2,1,9,13
+13,"Software instructs pump to finish paused basal delivery after a long suspension/interruption, causing a huge bolus to be flushed to the user",,1,4,2,9,13
+13,User is connected to the pump while it is being refilled or primed,,1,4,2,1,14
+13,User is connected to the pump while freeing clogged infusion tubes or detaching the reservoir,,1,4,2,10,14
+13,Releasing occlusion causes unexpected boluses,,4,1,1,3,4
+13,Large temperature changes causing a mismatch between the drug reservoir volume change and the insulin density change,,1,2,1,4,2
+13,"Pump fails to shut off or stop insulin delivery as commanded, and the user is not aware of this",,1,4,2,3,15
+14,Pump suspends or stops without the user’s awareness,,1,4,3,3,16
+14,"Drug reservoir is loaded improperly, causing no insulin to be delivered",,0,1,1,4,9999
+15,Pump platform fails to meet default operational specifications,,1,3,2,10,17
+16,User estimates or enters carbohydrate content of a planned meal incorrectly,,3,4,2,12,18
+16,"Food database contains erroneous information, causing incorrect calculation of the number of carbohydrates in a meal",,3,3,1,11,19
+16,User determinates or enters carbohydrate ratios (food factors) incorrectly,,3,4,3,12,20
+16,User misunderstands reverse correction or does not use reverse correction upon appropriate conditions,,3,4,2,12,21
+16,Design flaws/implementation defects in the bolus calculator,,1,1,1,11,15
+16,Unexpected software execution,,1,1,1,11,52
+17,"Pump provides the user only limited flexibility, such as coarse increment steps, to input parameters critical to bolus calculation",,1,4,2,11,54
+17,Inappropriate or incorrect calculation of insulin on board (IOB),,2,3,1,11,55
+17,User estimated or entered his/her sensitivity to insulin over time (correction factors) incorrectly,,0,4,2,12,9999
+17,Calculator uses obsolete BG readings as the user’s current BG level to calculate correction bolus,,0,4,2,11,9999
+17,User measured or entered BG values incorrectly,,0,4,2,12,9999
+17,User estimated or entered target BG levels incorrectly,,0,4,2,12,9999
+17,Design flaws/implementation defects in the bolus calculator,,0,1,1,11,9999
+17,Unexpected software execution,,0,1,1,11,9999
+18,"Pump provides the user limited or no capability to configure the duration of insulin action (DIA), causing input DIA to not be accurate enough for correct IOB calculation",,0,4,3,11,9999
+18,"User injects insulin manually, which is not accounted for by the pump when calculating IOB",,0,4,3,11,9999
+18,"Insulin leakage, causing the pump to miscalculate the amount of IOB",,0,2,2,11,9999
+18,Records of previous boluses become corrupt due to memory corruption or become inconsistent due to pump time changes,,0,1,1,13,9999
+18,Design flaws/implementation defects in the bolus calculator,,0,1,1,11,9999
+18,Unexpected software execution,,0,2,1,11,9999
+19,User inadvertently selects a restore of the factory settings,,1,4,2,12,22
+19,Accumulated static electricity during use triggers an unexpected restore of default factory settings,,1,2,1,14,22
+19,"Sensors that relay information about the pump's operation to the controller malfunction, providing incorrect or no data to the monitoring system.",,0,2,1,15,9999
+20,,0,1,3,2,32,23
+21,,0,0,3,2,32,9999
+22,,0,1,3,2,32,24
+23,Data tampered with by unauthorized personnel,,1,2,2,14,28
+23,Data corrupted due to memory corruption,,1,2,1,13,27
+23,"User provides the pump with incorrect, inaccurate, or incomplete information",,0,4,1,12,9999
+23,Pump does not record insulin delivered to the user during the period the user chooses to disconnect the pump and actual disconnection,,0,4,1,12,9999
+23,"Insulin leakage, resulting in incorrect records of previous insulin deliveries",,1,3,2,11,26
+24,Data tampered with by unauthorized personnel,,1,3,1,14,28
+24,"Random-access memory or nonvolatile memory failure, including failing to write to memory, failing to read from memory, and memory corruptions",,1,2,1,13,17
+24,Watchdog error,,1,3,1,14,17
+24,"Software defects, e.g., stack overflow, pointer corruption, math overflow, race conditions",,1,3,2,14,15
+25,Pump only provides limited options for the user to configure correction factors,,1,4,3,14,29
+25,Pump provides limited or no flexibility for the user to program basal delivery profiles to compensate for different behavior patterns,,1,4,1,14,29
+25,"Pump does not display necessary details about basal profiles on the user interface, e.g., time of latest modification, causing the user to activate an inappropriate basal profile",,1,4,2,14,30
+26,Software update error or failure,,1,2,1,14,15
+26,"Software defects, e.g., stack overflow, pointer corruption, math overflow, race conditions",,1,1,1,14,15
+26,"Operating systems and/or runtime supports corrupted, failed, or updated",,1,1,1,14,15
+26,"Hardware failure, e.g., central processing unit (CPU), memory, input/output (I/O), “bus,” power glitch, radiation/electromagnetic interference (EMI)",,1,3,2,14,15
+27,,0,1,3,3,32,31
+28,,0,0,4,1,32,9999
+29,,0,1,3,1,32,15
+30,,0,0,4,1,32,9999
+31,"During pump startup, reset, power-off/power-on sequence software is not initialized to appropriate values",,1,3,2,14,32
+32,Inappropriate setting of alarm priorities,,0,3,3,12,9999
+32,Sensor failures,,0,3,2,23,9999
+33,User inadvertently selects a device reset,,1,4,1,12,22
+33,Accumulated static electricity during use triggers an unexpected reset of the device,,1,2,1,14,22
+33,"Battery is inadvertently disconnected from the pump, triggering a reset",,1,2,1,15,22
+33,"Hardware failure, e.g., CPU, memory, I/O, “bus,” power glitch, radiation/EMI",,1,2,1,14,22
+34,,0,1,1,1,32,17
+35,,0,1,3,1,32,27
+36,,0,1,1,1,32,33
+37,,0,0,1,1,32,9999
+38,,0,0,2,1,32,9999
+39,,0,1,2,2,32,15
+40,,0,0,1,1,32,9999
+41,,0,1,2,1,32,17
+42,,0,1,1,1,32,17
+43,,0,1,3,1,32,34
+44,Defective audio device(s),,1,3,1,16,16
+44,Incorrect audio volume settings,,1,3,1,16,16
+45,Abnormal audio device(s),,1,1,1,16,17
+45,Incorrect audio volume settings,,0,3,1,16,9999
+46,Sensor problems,,0,3,3,17,9999
+46,Software errors,,0,2,1,17,9999
+47,Light-emitting diode failure,,1,2,2,18,16
+47,Color blindness,,1,3,1,18,16
+47,Poor location,,1,2,1,18,16
+48,Vibration mechanism fails,,1,3,2,19,36
+48,Incorrect vibration setting,,1,3,1,19,36
+48,(Poor) Pump location,,1,2,2,19,36
+49,,0,0,4,2,32,9999
+50,,0,0,2,1,32,9999
+51,,0,0,3,1,32,9999
+52,,0,0,2,2,32,9999
+53,,0,1,3,3,32,17
+54,,0,1,1,1,32,37
+55,,0,0,2,2,32,9999
+56,,0,0,2,1,32,9999
+57,,0,0,3,3,32,9999
+58,,0,1,1,1,32,8
+59,User drops the pump accidentally,,0,4,1,20,9999
+59,Pump is sheared due to contact with surrounding surfaces or objects,,0,3,1,20,9999
+59,Excessive external stress is applied to the pump,,0,3,2,20,9999
+60,,0,1,3,1,32,10
+61,Pump fails to equalize internal and external air pressure,,1,3,1,21,9
+61,Pump develops internal vacuum as insulin is delivered,,1,3,2,22,9
+61,"Outside air pressure is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or to behave erratically",,1,2,2,22,9
+61,"Temperature inside the pump is out of safe range or fluctuating inadvertently, causing the pump to deliver insulin inaccurately or to behave erratically",,1,2,2,22,9
+62,Mechanical failures,,1,2,1,21,38
+62,Electrical failures,,1,3,3,21,38
+63,Electrical circuit/component failures,,1,3,1,25,15
+63,Fluid/humidity ingress,,1,2,1,25,10
+64,"Nonfunctioning/disabled electrical circuits/components, e.g., shorted electrical circuits",,0,3,1,25,9999
+64,Pump develops excessive static charge or experiences electro static discharge (ESD) that exceeds its ESD immunity,,0,1,1,25,9999
+64,Fluid/humidity ingress into the pump,,1,1,1,25,10
+64,Voltage level of the battery is too low,,1,2,1,25,15
+64,Voltage level of the battery varies greatly,,1,3,2,25,15
+64,Battery impedance or contact impedance becomes too high,,1,2,2,25,15
+64,Electromagnetic interference,,1,3,1,25,11
+65,Pump is rubbing against surrounding surfaces or articles,,0,3,2,25,9999
+66,,0,1,1,1,32,39
+67,,0,1,4,2,32,40
+68,,0,1,1,1,32,41
+69,,0,1,1,1,32,41
+70,,0,0,1,1,32,9999
+71,,0,1,2,2,32,42
+72,Broken battery compartment or broken battery compartment cap,,1,5,1,26,43
+72,"User drops the pump accidentally, disconnecting the battery temporarily",,1,4,1,26,43
+73,,0,1,3,1,32,44
+74,,0,0,4,4,32,9999
+75,"Inadequate pump cleaning/sterilization (e.g., residue after contamination, failure to flush, failure to disinfect)",,0,2,1,27,9999
+75,Battery fluid or other fluid leaks into the delivery path,,0,3,1,28,9999
+75,User uses inappropriate cleaning agents while cleaning the pump routinely,,0,4,1,27,9999
+75,User keeps using the pump for a period longer than recommended,,0,4,3,27,9999
+76,Pump is shared by multiple users,,0,4,1,27,9999
+76,"Packaging of the pump is damaged prior to its use, but the user applies the pump regardless",,0,4,3,27,9999
+76,"Inadequate pump cleaning/sterilization, such as residue after contamination, failure to flush, and failure to disinfect, causing the pump to lose its sterility",,0,2,1,27,9999
+76,Pump is connected to nonsterile infusion sets,,0,3,2,27,9999
+77,Incorrect/incomplete pump cleaning procedure,,0,3,1,28,9999
+78,User fails to clean the infusion site completely before applying the infusion set,,1,4,4,29,45
+78,User fails to change infusion sites as recommended,,1,4,1,29,45
+79,Insulin contacts with incompatible pump material,,0,2,1,27,9999
+79,Environmental temperature is too high/low,,0,4,1,30,9999
+80,,0,0,3,1,32,9999
+81,,0,0,4,2,32,9999
+82,User is not sufficiently trained to operate the pump; user is not sufficiently intelligent to understand the instructions and use the pump correctly,,1,4,2,31,46
+82,User falls asleep or goes into coma due to hypoglycemia,,1,4,2,31,46
+83,,0,0,4,4,32,9999
+84,,0,0,4,4,32,9999
+85,,0,0,4,2,32,9999
+86,,0,0,4,2,32,9999
+87,,0,0,4,2,32,9999
+88,User fails to attend to pump notifications,,1,4,4,31,47
+88,User has no access to backup pump supplies,,0,4,3,31,9999
+89,,0,0,4,1,32,9999
+90,,0,0,4,1,32,9999
+91,,0,0,4,2,32,9999
+92,,0,1,4,2,32,48
+93,,0,1,4,2,32,48
+94,"User guesses, instead of consulting with food database, the number of carbohydrates in the meal",,0,4,1,31,9999
+94,User specifies incorrect categories or amounts of ingredients in the meal,,0,4,1,31,9999
+95,,0,1,3,2,32,50
+96,,0,0,4,3,32,9999
+97,,0,0,4,2,32,9999
+98,,0,0,4,4,32,9999
+99,User misunderstands suggestions from the bolus calculator,,0,4,1,31,9999
+99,User stops a bolus due to false symptoms of hypoglycemia,,0,4,3,31,9999
+100,,0,1,4,1,32,53
+101,Human factors issues,,1,1,1,31,47
+101,Excessive background noise,,1,3,2,31,47
+101,Outside lighting condition prevents the user from interacting with the pump correctly,,1,4,1,31,46
+101,"User muffles the speaker of the pump or other audio devices, either intentionally or unintentionally",,1,4,3,31,47
+101,User disregards pump notifications intentionally,,1,4,4,31,46
+101,“Nuisance” or false notifications occur too often and are subsequently ignored by the user,,1,4,1,31,47
+101,User falls asleep or goes into coma due to hypoglycemia,,1,4,3,31,47
+102,,0,0,1,1,32,9999
+103,,0,1,4,3,32,2
+104,,0,1,4,1,32,9
+105,Inadequate immunity or mitigation,,1,3,1,32,15
+105,Improper manufacturing process,,1,2,1,32,15
+105,Failure to reinstall electromagnetic compatibility (EMC) components after service or reinstalling EMC components incorrectly,,1,3,1,32,15
+105,Physical damage to the pump or its subassemblies,,1,3,1,32,15
+105,Pump is used in the presence of electromagnetic disturbances that exceed its design specifications,,1,1,1,32,15
+106,,0,0,4,2,32,9999
+107,,0,0,4,4,32,9999
+108,,0,1,3,1,32,28
+109,,0,1,1,1,32,8
+110,,0,1,3,1,32,35

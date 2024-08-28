@@ -1,0 +1,12 @@
+ID,Device_Function
+1,Priming process
+2,Insulin delivery
+3,Bolus administration
+4,Disconnection
+5,Bolus calculation
+6,User administration
+7,Administration
+8,Notifications/prompts
+9,Notifications
+10,Blinking notifications
+11,Vibration notification

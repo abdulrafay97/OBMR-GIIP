@@ -1,0 +1,73 @@
+ID,HS_ID,Harms,Probability_2,Severity
+1,1,Headache,4,2
+2,1,Tiredness,4,2
+3,1,Clumsiness,3,2
+4,1,Trouble talking,3,2
+5,1,Confusion,3,3
+6,1,Fast heart rate,3,2
+7,1,Sweating,3,2
+8,1,Shakiness,3,2
+9,1,Nervousness,3,2
+10,1,Hunger,3,2
+11,1,Loss of consciousness,2,4
+12,1,Seizures,2,5
+13,1,Death,1,5
+14,2,Polyphagia - Frequent Hunger,4,3
+15,2,Polydipsia - Frequent Thirst,5,3
+16,2,Polyuria - Increased volume of urination,5,3
+17,2,Blurred vision,3,3
+18,2,Fatigue,4,4
+19,2,Restlessness,3,2
+20,2,Weight loss,4,3
+21,2,Weight gain,2,3
+22,2,Poor wound healing,4,3
+23,2,Dry mouth,3,2
+24,2,Dry or itchy skin,3,2
+25,2,Tingling in feet or heels,4,3
+26,2,Erectile dysfunction,3,3
+27,2,Recurrent infections,4,3
+28,2,Delayed gastric emptying,3,3
+29,2,Cardiac arrhythmia - irregular heartbeat,3,4
+30,2,Stupor - Loss of critical mental function,2,5
+31,2,Coma,1,5
+32,2,Seizures,2,5
+33,3,Organ Damage,3,4
+34,3,Nausea,4,3
+35,3,Vomiting,4,3
+36,3,Dizziness,3,3
+37,3,Confusion,3,3
+38,3,Liver Dysfunction,2,4
+39,3,Kidney Failure,2,5
+40,3,Death,1,5
+41,4,First-degree Burns,3,2
+42,4,Second-degree Burns,2,3
+43,4,Third-degree Burns,1,4
+44,4,Pain/Discomfort,4,2
+45,5,Minor Shock,2,3
+46,5,Severe Shock,1,4
+47,5,Cardiac Arrest,1,5
+48,5,Death,1,5
+49,6,Device Malfunction,3,3
+50,6,Incorrect Insulin delivery,2,4
+51,6,Health monitoring errors,1,5
+52,7,Hearing Damage,2,2
+53,7,Stress/Anxiety,3,2
+54,7,Sleep Disturbances,3,2
+55,8,Local infection,3,3
+56,8,Systemic infection,2,4
+57,8,Sepsis,1,5
+58,8,Delayed wound healing,3,3
+59,9,Skin rash,4,2
+60,9,Hives,3,3
+61,9,Anaphylaxis,1,5
+62,9,Swelling/Redness,3,2
+63,10,Minor cuts,3,2
+64,10,Deep laceration,2,3
+65,10,Infection at injury site,2,3
+66,11,Component failure,2,3
+67,11,Reduced device lifespan,3,2
+68,11,User discomfort,3,2
+69,12,Chemical pollution,4,3
+70,12,Soil contamination,4,3
+71,12,Water pollution,3,4
+72,12,Harm to wildlife,3,4
